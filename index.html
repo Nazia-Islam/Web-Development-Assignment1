@@ -4,17 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Assignment</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Portfolio</h1>
-    <div>
-        <img src="" alt="">
-        <h3>Nazia Islam</h3>
-        <hr>
-        <p>Email address:naziasebelly@gmail.com <br>
-        A-3, 527, Sherpara Parbata, Mirpur-13, Dhaka. Bangladesh.</p>
-        <hr>
-        <p>Resume Summary:</p>
-    </div>
+<body style="margin: 0px;">
+    <section class="top-banner">
+        <div class="half-width">
+            <h1>Welcome to <br> <span class="blue-highlight">Nazia</span>'s World</h1>
+            <h2></h2>I am a Web Designer and Developer.</h2>
+            <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web-based internet applications, electronic businesses, and social network services.</p>
+            <a class="link-button" href="http://www.linkedin.com/company/programminghero/" target="_blank">Hire Me</a>
+        </div>
+        <div class="half-width">
+            <img src="images/profile1.jpg" alt="">
+        </div>
+    </section>
+    <section class="dream-area">
+        <div class="half-width">
+            <img src="images/profile2.jpg" alt="">
+        </div>
+        <div class="half-width">
+            <h1>Dream Big</h1>
+            <h2>I am a Web Designer and Developer.</h2>
+            <p>Web development is the work involved in developing a website for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web-based internet applications, electronic businesses, and social network services.</p>
+            <a class="link-button" href="http://www.linkedin.com/company/programminghero/" target="_blank">Download Resume</a>
+        </div>
+    </section>
+    <section class="experience-area">
+        <h2 style="text-align: center;">Experiences</h2>
+        <div id="full-stack" class="half-width single-experience">
+            <h2>Full Stack Web Dev</h2>
+            <h3 class="blue-highlight">2021-2022 | Pro Level Web Developer</h3>
+            <p>I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+        </div>
+        <div id="baby-stack" class="half-width single-experience">
+            <h2>Full Stack Web Dev</h2>
+            <h3 class="blue-highlight">2020-2021 | Baby Level Web Developer</h3>
+            <p>I am the -baby-master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+        </div>
+    </section>
+    <section>
+        <div class="half-width">
+            <div id="about-me" >
+                <p>Exploring my work?</p>
+                <h3>Projects<sub>(hover on list items)</sub></h3>
+                <h4>Different projects those i have done. I also have working experience with these tools.</h4>
+                <p>
+                    <ul id="pro-list">
+                        <li>Personal Portfolio website <p>HTML, CSS</p></li>
+                        
+                        <li>Hot Gadget e-commerce Site<p>HTML, CSS, JS</p></li>
+                        
+                        <li>Doctor's Portal<p>HTML, CSS, Bootstrap</p></li>
+                        
+                        <li>Shopping Cart<p>React, HTML, React Router, Firebase.</p></li>
+                        
+                        <li>Red Onion (Resturant Website)<p>React, Node, Material UI, MongoDB</p></li>
+                        
+                        <li>Air ABC<p>React, Node, Material UI, MongoDB</p></li>
+                        
+                        <li>Power-X-Gym<p>React, Node, Material UI, MongoDB</p></li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="half-width">
+           <div id="contact">
+               <p>Interested?</p>
+               <h3>Contact Me</h3>
+               <input type="text" placeholder="Enter Your Name*" required>
+               <input type="text" placeholder="Enter Your phone No*" required>
+               <input type="text" placeholder="Name of Your Organization">
+               <input type="email" placeholder="Enter your email">
+               <p id="required-field">* fields are required.</p>
+               <input style="width: 20%;" type="button" value="Submit">
+           </div>
+        </div>
+    </section>
+    <footer>
+        <p>© Nazia Islam 2020. All rights reserved.</p>
+    </footer>
 </body>
 </html>
